@@ -182,11 +182,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-function motherUpper(someString) {
-  upperString = someString.toUpperCase(someString)
-  console.log(upperString)
-}
-return motherUpper(sampleString)
+// function motherUpper(someString) {
+//   upperString = someString.toUpperCase(someString)
+//   console.log(upperString)
+// }
+// return motherUpper(sampleString)
 ////////////////// PROBLEM 12 ////////////////////
 /*
   Write a function called emailCheck that takes in
@@ -197,7 +197,15 @@ return motherUpper(sampleString)
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
 */
+function emailCheck(email) {
+  cleanMail = String(email.trim());
+  console.log(cleanMail)
+  if (cleanMail.includes('@')) {
+    console.log('email verified');
+  } else comsole.log('must provide a valid email address');
+}
 
+emailCheck('     lance@home       ')
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
