@@ -226,36 +226,48 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-function frogtpoia2(budget) {
-  let numFrogs = budget / 3
-  return numFrogs
-}
-totalFrogs2 = frogtpoia2(8)
-console.log(Math.round(totalFrogs2))
+// function frogtpoia2(budget) {
+//   let numFrogs = budget / 3
+//   return numFrogs
+// }
+// totalFrogs2 = frogtpoia2(8)
+// console.log(Math.round(totalFrogs2))
 
 ////////////////// PROBLEM 15 ////////////////////
-let sampleArray = [0,1,2,3,4,7,5,6,8,9]
+let sampleArray = [1,2,3,4,5,6,8,9]
 /*
   Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
 */
 
 //CODE HERE
+function isAscending(numArray) { 
+  let nextNum;
+    for (i = 0; i < numArray.length; i++) {
+     nextNum = i + 1;
+    if (numArray[nextNum] - numArray[i] < 0) return false;
+  }
+    return true;      
+}
 
+
+let arrayIsAscending = isAscending(sampleArray)
+console.log(arrayIsAscending)
 
 ////////////////// PROBLEM 16 ////////////////////
 
-let duck = "cute";
+// let duck = "cute";
 
-function bathroom() {
-  let rubberDuck = "squeaky";
-  function bathtub() {
-    let sailorDuck = "nautical";
-  }
-}
+// function bathroom() {
+//   let rubberDuck = "squeaky";
+//   function bathtub() {
+//     let sailorDuck = "nautical";
+//   }
+// }
 
-function pond() {
-  let realDuck = "fluffy";
-}
+// //console.log(rubberDuck)
+// function pond() {
+//   let realDuck = "fluffy";
+// }
 
 /*
   There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck.
@@ -264,13 +276,13 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+// let globalScope = [String(duck)]
 
-//This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+// //This array should contain the variable names (as strings) accessible in the bathroom function.
+// let bathroomScope = [String(duck), String(rubberDuck)]
 
-//This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+// //This array should contain the variable names (as strings) accessible in the bathtub function.
+// let bathtubScope = [String(duck), String(rubberDuck), String(sailorDuck)]
 
-//This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+// //This array should contain the variable names (as strings) accessible in the pond function.
+// let pondScope = [String(duck), String(rubberDuck), String(realDuck)]
