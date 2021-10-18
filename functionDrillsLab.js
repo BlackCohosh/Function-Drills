@@ -213,12 +213,12 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-function frogtpoia(budget) {
-  let numFrogs = budget / 3
-  return numFrogs
-}
-totalFrogs = frogtpoia(4)
-console.log(totalFrogs)
+// function frogtpoia(budget) {
+//   let numFrogs = budget / 3
+//   return numFrogs
+// }
+// totalFrogs = frogtpoia(4)
+// console.log(totalFrogs)
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
@@ -226,7 +226,12 @@ console.log(totalFrogs)
 */
 
 //CODE HERE
-
+function frogtpoia2(budget) {
+  let numFrogs = budget / 3
+  return numFrogs
+}
+totalFrogs2 = frogtpoia2(8)
+console.log(Math.round(totalFrogs2))
 
 ////////////////// PROBLEM 15 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
