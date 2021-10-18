@@ -111,8 +111,6 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 //CODE HERE
 // function printAllNames(namesArr) {
 //   for (let i = 0; i < namesArr.length; i++) {
-// //    var nameArray = []
-// //    nameArray.push()
 //     console.log(namesArr[i])
 //   }
 // }
@@ -126,9 +124,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
-////////////////// PROBLEM 9 ////////////////////
+// function thatsOdd(aNumber) {
+//   if (aNumber % 2 === 0) {
+//     return 'That\'s not odd!';
+//   } else return 'That is odd indeed!';
+// }
+// var oddChecker = thatsOdd(68)
+// console.log(oddChecker)
+// ////////////////// PROBLEM 9 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr',  which will be an array of numbers. 
