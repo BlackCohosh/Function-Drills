@@ -164,15 +164,15 @@ let loser = 'Katniss'
 */
 
 //CODE HERE
-function theEliminator(contestants, loser) {
-  for (i = 0; i < contestants.length; i++) {
-    if (contestants[i] === loser) {
-      contestants.splice(i, 1)
-    } 
-  } console.log(contestants)
-} 
+//function theEliminator(contestants, loser) {
+//   for (i = 0; i < contestants.length; i++) {
+//     if (contestants[i] === loser) {
+//       contestants.splice(i, 1)
+//     } 
+//   } console.log(contestants)
+// } 
 
-return theEliminator(contestants, loser)
+// return theEliminator(contestants, loser)
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -182,8 +182,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
-
+function motherUpper(someString) {
+  upperString = someString.toUpperCase(someString)
+  console.log(upperString)
+}
+return motherUpper(sampleString)
 ////////////////// PROBLEM 12 ////////////////////
 /*
   Write a function called emailCheck that takes in
