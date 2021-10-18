@@ -5,7 +5,10 @@
 */
 
 //CODE HERE
-function helloWorld 
+// function helloWorld() {
+//   console.log('Hello, World!');
+// }
+// helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 /*
@@ -15,8 +18,10 @@ function helloWorld
 */
 
 //CODE HERE
-
-
+// function printName(name) {
+//   console.log(name)
+// }
+// printName('Lance')
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called greeting that
@@ -29,7 +34,13 @@ function helloWorld
 */
 
 //CODE HERE
+// function greeting(name) {
+//   var name = 'Bilbert'
+//   var stringName = String(name);
+//   console.log('Hello,', stringName)
+// } 
 
+// greeting()
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -40,8 +51,13 @@ function helloWorld
 */
 
 //CODE HERE
-
-
+// function add(parA, parB) {
+//   var parA = Number(parA)
+//   var parB = Number(parB)
+//   return parA + parB
+// }
+// var sum = add(1, 2)
+// console.log(sum)
 ////////////////// PROBLEM 5 ////////////////////
 /*
   Write a function called nameCheck that takes in a name parameter.
@@ -52,8 +68,15 @@ function helloWorld
 */
 
 //CODE HERE
-
-
+// function nameCheck(name) {
+//   if (name === 'Steven') {
+//     console.log('What is up, Steven?');
+//   } else if (name === 'Bryan') {
+//     console.log('Hey Bryan!');
+//   } else console.log(`Cool name, ${name}`);
+// }
+// var nameGreeting = nameCheck('Lance');
+// return nameGreeting
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
@@ -65,7 +88,17 @@ function helloWorld
 */
 
 //CODE HERE
-
+// function faveColorFinder(color) {
+//   if (color === 'red') {
+//     return 'red is a great color'
+//   } else if (color === 'green') {
+//     return 'green is a solid favorite color'
+//   } else if (color === 'black') {
+//     return 'so trendy'
+//   } else return 'you need to evaluate your favorite color choice'
+// }
+// var colorRating = faveColorFinder('green')
+// console.log(colorRating)
 
 ////////////////// PROBLEM 7 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -76,8 +109,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+// function printAllNames(namesArr) {
+//   for (let i = 0; i < namesArr.length; i++) {
+// //    var nameArray = []
+// //    nameArray.push()
+//     console.log(namesArr[i])
+//   }
+// }
+// return printAllNames(namesArr)
 ////////////////// PROBLEM 8 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
